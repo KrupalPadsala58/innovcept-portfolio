@@ -1,82 +1,36 @@
-# Innovcept Portfolio Website
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A high-trust, high-conversion business portfolio website for Innovcept - helping US small businesses grow with websites, AI chatbots, and business automation.
+## Getting Started
 
-## 🚀 Features
+First, run the development server:
 
-- **Conversion-Focused Design** - Strategic CTAs and clear value propositions
-- **Premium Aesthetics** - Modern SaaS-style with trust colors (teal/blue)
-- **Mobile-First Responsive** - Works perfectly on all devices
-- **Fast Loading** - Optimized performance with minimal dependencies
-- **SEO-Ready** - Semantic HTML, proper meta tags, and heading hierarchy
-
-## 🛠️ Technology Stack
-
-- HTML5 - Semantic structure
-- CSS3 - Modern design system with custom properties
-- Vanilla JavaScript - Interactive functionality
-- Google Fonts (Inter) - Professional typography
-
-## 📁 Project Structure
-
-```
-innovcept-portfolio/
-├── index.html          # Main HTML file
-├── styles.css          # Complete design system
-├── script.js           # Interactive functionality
-└── README.md           # This file
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## 🌐 Live Demo
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Visit the live website: [https://YOUR_USERNAME.github.io/innovcept-portfolio/](https://YOUR_USERNAME.github.io/innovcept-portfolio/)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 💻 Local Development
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/innovcept-portfolio.git
-   ```
+## Learn More
 
-2. Navigate to the project directory:
-   ```bash
-   cd innovcept-portfolio
-   ```
+To learn more about Next.js, take a look at the following resources:
 
-3. Start a local server:
-   ```bash
-   python -m http.server 8000
-   ```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-4. Open in browser:
-   ```
-   http://localhost:8000
-   ```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## 🎨 Customization
+## Deploy on Vercel
 
-### Colors
-Edit CSS custom properties in `styles.css` (lines 5-15):
-```css
---color-primary: #06b6d4;
---color-secondary: #3b82f6;
-```
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### Content
-Edit text directly in `index.html`
-
-### Contact Email
-Update the email address in the final CTA section
-
-## 📄 License
-
-© 2026 Innovcept. All rights reserved.
-
-## 👤 Author
-
-**Krupal Padsala**  
-Founder & Lead Engineer at Innovcept
-
----
-
-Built with ❤️ for US small businesses
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
