@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { Project } from '../data/projects';
 import Button from './Button';
@@ -9,7 +10,11 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <div className="bg-white dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col h-full border border-gray-100 dark:border-slate-700">
+    <motion.div 
+      whileHover={{ y: -10 }}
+      transition={{ type: "spring", stiffness: 300, damping: 20 }}
+      className="bg-white dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl flex flex-col h-full border border-gray-100 dark:border-slate-700"
+    >
       <div className="relative h-48 w-full overflow-hidden group">
         <Image 
           src={project.imageUrl} 
@@ -64,7 +69,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
